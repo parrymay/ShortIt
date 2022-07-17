@@ -4,14 +4,78 @@
     "C:\\Users\\Alks\\Desktop\\Project\\C#\\ShortIt\\ShortIt\\ShortIt.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Alks\\Desktop\\Project\\C#\\ShortIt\\ShortIt\\ShortIt.csproj": {
+    "C:\\Users\\Alks\\Desktop\\Project\\C#\\ShortIt\\ShortIt.DAL\\ShortIt.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Alks\\Desktop\\Project\\C#\\ShortIt\\ShortIt\\ShortIt.csproj",
-        "projectName": "ShortIt",
-        "projectPath": "C:\\Users\\Alks\\Desktop\\Project\\C#\\ShortIt\\ShortIt\\ShortIt.csproj",
+        "projectUniqueName": "C:\\Users\\Alks\\Desktop\\Project\\C#\\ShortIt\\ShortIt.DAL\\ShortIt.DAL.csproj",
+        "projectName": "ShortIt.DAL",
+        "projectPath": "C:\\Users\\Alks\\Desktop\\Project\\C#\\ShortIt\\ShortIt.DAL\\ShortIt.DAL.csproj",
         "packagesPath": "C:\\Users\\Alks\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Alks\\Desktop\\Project\\C#\\ShortIt\\ShortIt\\obj\\",
+        "outputPath": "C:\\Users\\Alks\\Desktop\\Project\\C#\\ShortIt\\ShortIt.DAL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Alks\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Alks\\Desktop\\Project\\C#\\ShortIt\\ShortIT.Domain\\ShortIT.Domain.csproj": {
+                "projectPath": "C:\\Users\\Alks\\Desktop\\Project\\C#\\ShortIt\\ShortIT.Domain\\ShortIT.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.16.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Alks\\Desktop\\Project\\C#\\ShortIt\\ShortIT.Domain\\ShortIT.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Alks\\Desktop\\Project\\C#\\ShortIt\\ShortIT.Domain\\ShortIT.Domain.csproj",
+        "projectName": "ShortIT.Domain",
+        "projectPath": "C:\\Users\\Alks\\Desktop\\Project\\C#\\ShortIt\\ShortIT.Domain\\ShortIT.Domain.csproj",
+        "packagesPath": "C:\\Users\\Alks\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Alks\\Desktop\\Project\\C#\\ShortIt\\ShortIT.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Alks\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,9 +104,141 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "MongoDB.Bson": {
+              "target": "Package",
+              "version": "[2.16.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Alks\\Desktop\\Project\\C#\\ShortIt\\ShortIT.Service\\ShortIT.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Alks\\Desktop\\Project\\C#\\ShortIt\\ShortIT.Service\\ShortIT.Service.csproj",
+        "projectName": "ShortIT.Service",
+        "projectPath": "C:\\Users\\Alks\\Desktop\\Project\\C#\\ShortIt\\ShortIT.Service\\ShortIT.Service.csproj",
+        "packagesPath": "C:\\Users\\Alks\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Alks\\Desktop\\Project\\C#\\ShortIt\\ShortIT.Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Alks\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Alks\\Desktop\\Project\\C#\\ShortIt\\ShortIt.DAL\\ShortIt.DAL.csproj": {
+                "projectPath": "C:\\Users\\Alks\\Desktop\\Project\\C#\\ShortIt\\ShortIt.DAL\\ShortIt.DAL.csproj"
+              },
+              "C:\\Users\\Alks\\Desktop\\Project\\C#\\ShortIt\\ShortIT.Domain\\ShortIT.Domain.csproj": {
+                "projectPath": "C:\\Users\\Alks\\Desktop\\Project\\C#\\ShortIt\\ShortIT.Domain\\ShortIT.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Alks\\Desktop\\Project\\C#\\ShortIt\\ShortIt\\ShortIt.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Alks\\Desktop\\Project\\C#\\ShortIt\\ShortIt\\ShortIt.csproj",
+        "projectName": "ShortIt",
+        "projectPath": "C:\\Users\\Alks\\Desktop\\Project\\C#\\ShortIt\\ShortIt\\ShortIt.csproj",
+        "packagesPath": "C:\\Users\\Alks\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Alks\\Desktop\\Project\\C#\\ShortIt\\ShortIt\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Alks\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Alks\\Desktop\\Project\\C#\\ShortIt\\ShortIt.DAL\\ShortIt.DAL.csproj": {
+                "projectPath": "C:\\Users\\Alks\\Desktop\\Project\\C#\\ShortIt\\ShortIt.DAL\\ShortIt.DAL.csproj"
+              },
+              "C:\\Users\\Alks\\Desktop\\Project\\C#\\ShortIt\\ShortIT.Service\\ShortIT.Service.csproj": {
+                "projectPath": "C:\\Users\\Alks\\Desktop\\Project\\C#\\ShortIt\\ShortIT.Service\\ShortIT.Service.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
             "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
               "target": "Package",
               "version": "[1.15.1, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.16.1, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",

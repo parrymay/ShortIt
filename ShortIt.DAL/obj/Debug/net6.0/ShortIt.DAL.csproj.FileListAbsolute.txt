@@ -1,0 +1,15 @@
+C:\Users\Alks\Desktop\Project\C#\ShortIt\ShortIt.DAL\bin\Debug\net6.0\ShortIt.DAL.deps.json
+C:\Users\Alks\Desktop\Project\C#\ShortIt\ShortIt.DAL\bin\Debug\net6.0\ShortIt.DAL.dll
+C:\Users\Alks\Desktop\Project\C#\ShortIt\ShortIt.DAL\bin\Debug\net6.0\ShortIt.DAL.pdb
+C:\Users\Alks\Desktop\Project\C#\ShortIt\ShortIt.DAL\bin\Debug\net6.0\ShortIT.Domain.dll
+C:\Users\Alks\Desktop\Project\C#\ShortIt\ShortIt.DAL\bin\Debug\net6.0\ShortIT.Domain.pdb
+C:\Users\Alks\Desktop\Project\C#\ShortIt\ShortIt.DAL\obj\Debug\net6.0\ShortIt.DAL.csproj.AssemblyReference.cache
+C:\Users\Alks\Desktop\Project\C#\ShortIt\ShortIt.DAL\obj\Debug\net6.0\ShortIt.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alks\Desktop\Project\C#\ShortIt\ShortIt.DAL\obj\Debug\net6.0\ShortIt.DAL.AssemblyInfoInputs.cache
+C:\Users\Alks\Desktop\Project\C#\ShortIt\ShortIt.DAL\obj\Debug\net6.0\ShortIt.DAL.AssemblyInfo.cs
+C:\Users\Alks\Desktop\Project\C#\ShortIt\ShortIt.DAL\obj\Debug\net6.0\ShortIt.DAL.csproj.CoreCompileInputs.cache
+C:\Users\Alks\Desktop\Project\C#\ShortIt\ShortIt.DAL\obj\Debug\net6.0\ShortIt.DAL.csproj.CopyComplete
+C:\Users\Alks\Desktop\Project\C#\ShortIt\ShortIt.DAL\obj\Debug\net6.0\ShortIt.DAL.dll
+C:\Users\Alks\Desktop\Project\C#\ShortIt\ShortIt.DAL\obj\Debug\net6.0\refint\ShortIt.DAL.dll
+C:\Users\Alks\Desktop\Project\C#\ShortIt\ShortIt.DAL\obj\Debug\net6.0\ShortIt.DAL.pdb
+C:\Users\Alks\Desktop\Project\C#\ShortIt\ShortIt.DAL\obj\Debug\net6.0\ref\ShortIt.DAL.dll

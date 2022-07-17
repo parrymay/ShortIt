@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "aCYWU9qoxKBy74LSA7cJQ3aUI0Lgtgt7/6+/c8EDn+8k2c2sssOL9bbrc8uQqQLjmGBaEg/ng9icpNRlSk3lYw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Alks\\Desktop\\Project\\C#\\ShortIt\\ShortIT.Domain\\ShortIT.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Alks\\.nuget\\packages\\mongodb.bson\\2.16.1\\mongodb.bson.2.16.1.nupkg.sha512",
+    "C:\\Users\\Alks\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\5.0.0\\system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -3,7 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32526.322
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShortIt", "ShortIt\ShortIt.csproj", "{F25BC2F1-3E27-45A0-ACCD-10F12386EE45}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShortIt", "ShortIt\ShortIt.csproj", "{F25BC2F1-3E27-45A0-ACCD-10F12386EE45}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DAL", "DAL", "{771A92E2-9906-46ED-99FF-E1D565EB6A09}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{60C4ECCE-DBA5-4027-BDA8-985C5C5B335C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Service", "Service", "{406E9AD6-859E-45B4-9324-4FC4491BCF25}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShortIt.DAL", "ShortIt.DAL\ShortIt.DAL.csproj", "{91575004-4797-4F31-A7AD-D323379C760A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShortIT.Domain", "ShortIT.Domain\ShortIT.Domain.csproj", "{4F4D880D-902B-4647-8DAD-F989450AE3AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShortIT.Service", "ShortIT.Service\ShortIT.Service.csproj", "{041CC136-D04D-4C34-B858-D93E39E6DBD9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +27,26 @@ Global
 		{F25BC2F1-3E27-45A0-ACCD-10F12386EE45}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F25BC2F1-3E27-45A0-ACCD-10F12386EE45}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F25BC2F1-3E27-45A0-ACCD-10F12386EE45}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91575004-4797-4F31-A7AD-D323379C760A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91575004-4797-4F31-A7AD-D323379C760A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91575004-4797-4F31-A7AD-D323379C760A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91575004-4797-4F31-A7AD-D323379C760A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F4D880D-902B-4647-8DAD-F989450AE3AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F4D880D-902B-4647-8DAD-F989450AE3AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F4D880D-902B-4647-8DAD-F989450AE3AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F4D880D-902B-4647-8DAD-F989450AE3AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{041CC136-D04D-4C34-B858-D93E39E6DBD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{041CC136-D04D-4C34-B858-D93E39E6DBD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{041CC136-D04D-4C34-B858-D93E39E6DBD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{041CC136-D04D-4C34-B858-D93E39E6DBD9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{91575004-4797-4F31-A7AD-D323379C760A} = {771A92E2-9906-46ED-99FF-E1D565EB6A09}
+		{4F4D880D-902B-4647-8DAD-F989450AE3AE} = {60C4ECCE-DBA5-4027-BDA8-985C5C5B335C}
+		{041CC136-D04D-4C34-B858-D93E39E6DBD9} = {406E9AD6-859E-45B4-9324-4FC4491BCF25}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E7BA22A1-3768-4602-849B-F344682062A7}

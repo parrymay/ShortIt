@@ -1,0 +1,12 @@
+C:\Users\Alks\Desktop\Project\C#\ShortIt\ShortIT.Domain\bin\Debug\net6.0\ShortIT.Domain.deps.json
+C:\Users\Alks\Desktop\Project\C#\ShortIt\ShortIT.Domain\bin\Debug\net6.0\ShortIT.Domain.dll
+C:\Users\Alks\Desktop\Project\C#\ShortIt\ShortIT.Domain\bin\Debug\net6.0\ShortIT.Domain.pdb
+C:\Users\Alks\Desktop\Project\C#\ShortIt\ShortIT.Domain\obj\Debug\net6.0\ShortIT.Domain.csproj.AssemblyReference.cache
+C:\Users\Alks\Desktop\Project\C#\ShortIt\ShortIT.Domain\obj\Debug\net6.0\ShortIT.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alks\Desktop\Project\C#\ShortIt\ShortIT.Domain\obj\Debug\net6.0\ShortIT.Domain.AssemblyInfoInputs.cache
+C:\Users\Alks\Desktop\Project\C#\ShortIt\ShortIT.Domain\obj\Debug\net6.0\ShortIT.Domain.AssemblyInfo.cs
+C:\Users\Alks\Desktop\Project\C#\ShortIt\ShortIT.Domain\obj\Debug\net6.0\ShortIT.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Alks\Desktop\Project\C#\ShortIt\ShortIT.Domain\obj\Debug\net6.0\ShortIT.Domain.dll
+C:\Users\Alks\Desktop\Project\C#\ShortIt\ShortIT.Domain\obj\Debug\net6.0\refint\ShortIT.Domain.dll
+C:\Users\Alks\Desktop\Project\C#\ShortIt\ShortIT.Domain\obj\Debug\net6.0\ShortIT.Domain.pdb
+C:\Users\Alks\Desktop\Project\C#\ShortIt\ShortIT.Domain\obj\Debug\net6.0\ref\ShortIT.Domain.dll
