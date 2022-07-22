@@ -9,16 +9,19 @@ namespace ShortIt.DAL
     {
         private IMongoDatabase db;
         public IMongoCollection<Link> Links;
+        public IMongoCollection<string> MaxIncrement;
 
         public AppDbContext()
         {
             string connectionString = "mongodb://localhost/ShortIT";
             string dbName = "ShortIT";
-            string collectionName = "Links";
+            string linkCollectionName = "Links";
+            string incrementCollectionName = "MaxIncrement";
 
             MongoClient client = new MongoClient(connectionString);
             db = client.GetDatabase(dbName);
-            Links = db.GetCollection<Link>(collectionName);
+            Links = db.GetCollection<Link>(linkCollectionName);
+            MaxIncrement = db.GetCollection<string>(incrementCollectionName);
         }
         //public async Task<List<Link>> GetLinks()
         //{

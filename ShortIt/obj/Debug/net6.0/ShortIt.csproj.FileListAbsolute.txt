@@ -46,3 +46,5 @@ C:\Users\Alks\Desktop\Project\C#\ShortIt\ShortIt\bin\Debug\net6.0\ShortIt.DAL.pd
 C:\Users\Alks\Desktop\Project\C#\ShortIt\ShortIt\bin\Debug\net6.0\ShortIT.Domain.pdb
 C:\Users\Alks\Desktop\Project\C#\ShortIt\ShortIt\bin\Debug\net6.0\ShortIT.Service.dll
 C:\Users\Alks\Desktop\Project\C#\ShortIt\ShortIt\bin\Debug\net6.0\ShortIT.Service.pdb
+C:\Users\Alks\Desktop\Project\C#\ShortIt\ShortIt\bin\Debug\net6.0\ShortIt.staticwebassets.runtime.json
+C:\Users\Alks\Desktop\Project\C#\ShortIt\ShortIt\obj\Debug\net6.0\ShortIt.MvcApplicationPartsAssemblyInfo.cs

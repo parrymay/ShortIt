@@ -6,16 +6,17 @@ namespace ShortIT.Domain
 {
     public class Link
     {
-        [BsonId]
+        [BsonRepresentation(BsonType.ObjectId)]
         public string _id { get; set; }
 
-        [Display(Name = "URL")]
+        public string inctrement { get; set; }
+        
+        public string visitCount { get; set; }
+
         public string url { get; set; }
 
-        [Display(Name = "ShortURL")]
         public string shorturl { get; set; }
 
-        [Display(Name = "Create at")]
         public string createAt { get; set; }
     }
 }

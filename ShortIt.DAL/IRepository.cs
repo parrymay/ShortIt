@@ -10,7 +10,9 @@ namespace ShortIt.DAL
     public interface IRepository<T> 
         where T : class
     {
-        public Task<IEnumerable<Link>> GetFullLink(string shortUrl);
-        public Task<IEnumerable<Link>> GetShortLink(string fullUrl);
+        public Task<string> GetFullUrl(string? shortUrl);
+        public Task<string> GetShortUrl(string? fullUrl);
+        public Task<string> CutUrl(string? url);
+        public Task<string> InsertUrl(string id, string url, string shortUrl);
     }
 }

@@ -1,11 +1,37 @@
 {
   "Version": 1,
-  "Hash": "XV7P5CETiKuMX6HNGuP+nlgHC+/ZewgXtgCnTYlvIQk=",
+  "Hash": "UCRmAUd0PRX9Lv2rIr7B1h5LnXVo0wb3x6CNj4vHfSE=",
   "Source": "ShortIt",
   "BasePath": "_content/ShortIt",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "ShortIt\\wwwroot",
+      "Source": "ShortIt",
+      "ContentRoot": "C:\\Users\\Alks\\Desktop\\Project\\C#\\ShortIt\\ShortIt\\wwwroot\\",
+      "BasePath": "_content/ShortIt",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\Alks\\Desktop\\Project\\C#\\ShortIt\\ShortIt\\wwwroot\\index.html",
+      "SourceId": "ShortIt",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Alks\\Desktop\\Project\\C#\\ShortIt\\ShortIt\\wwwroot\\",
+      "BasePath": "_content/ShortIt",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    }
+  ]
 }
